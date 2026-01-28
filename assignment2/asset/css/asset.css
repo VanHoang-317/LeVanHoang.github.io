@@ -1,0 +1,91 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/*Navigation*/
+.navbar li.active a {
+  padding: 1px 1px;
+  background-color: rgb(243, 243, 78);
+}
+
+.navbar li a{ 
+    text-decoration: none;
+    color : #000;
+}
+
+nav{
+    padding : 16px 0;
+}
+/*Section*/
+section{
+    background-color: antiquewhite;
+    padding : 32px 0;
+}
+section h1{
+    margin-bottom : 32px;
+    color : blue;
+    width : 100%;
+    text-align: center;
+}
+section h2{
+    margin : 16px 0;
+    margin-left : 2%;
+    color :rgb(112, 83, 28);
+}
+
+/*Info*/
+.info{
+    margin : 32px 0px;
+    text-align: center;
+}
+
+.info .anh{
+    margin : 16px 0;
+    height: 20%;
+    width :20%;
+}
+
+.DuAn  li{
+    margin-left : 5%;
+    line-height: 1.5;
+    list-style: none;
+}
+
+
+ .Kinhnghiem {
+    margin-left : 2%;
+    line-height: 1.5;
+    list-style: none;
+}
+
+.Kinhnghiem .mota{
+    margin-left : 5%;
+    line-height: 1.5;
+    list-style: circle;
+}
+
+.Sach img{
+    width : 400px;
+    height : 600px;
+}
+
+.Gallery{
+    display : inline-block;
+    width : 100%;
+}
+
+.Gallery .imagine:hover,
+.Gallery .imagine:focus
+{
+    width : 600px;
+    height: 500px;
+}
+ /*Footer*/
+footer{
+    background-color: rgb(178, 178, 239);
+    padding : 50px 0;
+}
